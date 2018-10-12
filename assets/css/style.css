@@ -9,7 +9,7 @@ h1{
 }
 
 .container{
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
 	background-color: #f2f2f2; /*offwhite*/
 	color: #404040; /*offblack*/
@@ -66,32 +66,32 @@ footer{
 
 #post-title{
 	width: 100%;
-	padding: 10;
+	padding: 10px;
 	border-radius: 25px;
-	margin: 15px;
+	margin: 10px;
 	box-sizing: border-box;
 }
 
 #post-content{
-	width: 85%;
+	width: 100%;
 	height: 100px;
 	padding: 10px;
 	border-radius: 25px;
-	margin: 15px;
+	margin: 10px;
 	box-sizing: border-box;
 }
 
 .btn{
 	border: none;
-	padding: 15px 50px;
-	font-size: 14px;
+	padding: 10px 30px;
+	font-size: 15px;
 	border-radius: 5px;
 	color: #fff;
 }
 
 .btn-blue{
 	background-color: #09c;
-
+	margin-right: 80px;
 }
 
 .btn-green{
@@ -124,6 +124,7 @@ footer{
 
 .inline-blocked{
 	display: inline-block;
+	font-size: 30px;
 }
 
 .dashboard-text{
