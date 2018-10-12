@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #f2f2f2; /*offwhite*/
+	color: #404040; /*offblack*/
+}
+header{
+	background-color: #ee5522;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23ca481d' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+	background-color: #09c;/*aqua*/
+	height: 80px;
+	color: #f2f2f2;
+	text-align: center;
+	line-height: 70px;
+	font-size: 15px;
+}
+
+footer{
+	background-color: #404040;
+	height: 80px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+.dashboard-thumbnail{
+	display: inline-block;
+	width: 40%;
+	height: 100px
+}
+
+.dashboard-circles{
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 25%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+}
+
+#post-circle{
+	background-color: #2274A5;
+	border-radius: 60%;
+	margin-left: 90px;
+}
+
+#image-circle{
+	background-color: #2274A5;
+	border-radius: 60%;
+	margin-left: 90px; 
+}
+
+#post-title{
+	width: 100%;
+	padding: 10;
+	border-radius: 25px;
+	margin: 15px;
+	box-sizing: border-box;
+}
+
+#post-content{
+	width: 85%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 25px;
+	margin: 15px;
+	box-sizing: border-box;
+}
+
+.btn{
+	border: none;
+	padding: 15px 50px;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn-blue{
+	background-color: #09c;
+
+}
+
+.btn-green{
+	background-color: #4CAF50;
+}
+
+#btn-browse{
+	margin-left: 15px;
+}
+
+.hide-oveflow{
+	overflow: hidden;
+}
+
+.img-set{
+	height: 70px;
+	width: 100px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0 5px;
+
+}
+
+.img-set-holder{
+	text-align: justify;
+	padding: 50px;
+
+}
+
+.inline-blocked{
+	display: inline-block;
+}
+
+.dashboard-text{
+	font-family: 'Coming Soon', cursive;
+	margin: 0;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+}
+
+main {
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+	padding: 5px;
+}
+
+#btn-publish, 
+#btn-upload,
+#btn-browse{
+	float: right;
+}
